@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+}
+  
+.piano {
+    display: flex;
+    position: relative;
+    margin-left: 4px;
+}
+  
+.white-key {
+    width: 40px;
+    height: 120px;
+    background-color: #FFF;
+    border: 4px solid black;
+    border-radius: 0 0 6px 6px;
+    margin-left: -4px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.white-key.active {
+    background-color: #C0C0C0;
+}
+  
+.black-key {
+    position: absolute;
+    width: 24px;
+    height: 80px;
+    background-image: linear-gradient(#000000, #303030);
+    border: 3px solid black;
+    border-radius: 0 0 2px 2px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.black-key.active {
+    background-image: linear-gradient(#000000, #101010);
+}
+  
+.Db4 {
+    left: 22px;
+}
+  
+.Eb4 {
+    left: 58px;
+}
+  
+.Gb4 {
+    left: 130px;
+}
+  
+.Ab4 {
+    left: 166px;
+}
+  
+.Bb4 {
+    left: 202px;
+}
+  
+.Db5 {
+    left: 274px;
+}
+  
+.Eb5 {
+    left: 310px;
+}
