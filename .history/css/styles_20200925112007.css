@@ -58,12 +58,14 @@ a {
   padding-bottom: 10px;
 }
 
+
 .top-container {
   background-color: #ecf4f3;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 
 .middle-container {
   margin-top: 100px;
@@ -117,8 +119,8 @@ a {
 }
 
 .contact-message {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -132,9 +134,7 @@ a {
 	color:#4e89ae;
   font-family: 'Montserrat', sans-serif;
 	font-size:18px;
-  padding:8px 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+	padding:8px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 }
