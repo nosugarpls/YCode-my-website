@@ -31,6 +31,7 @@ body {
     border-radius: 0 0 6px 6px;
     margin-left: -4px;
     outline: none;
+    cursor: pointer;
 }
   
 .white-key.active {
@@ -45,6 +46,7 @@ body {
     border: 3px solid black;
     border-radius: 0 0 2px 2px;
     outline: none;
+    cursor: pointer;
 }
   
 .black-key.active {
