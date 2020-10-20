@@ -121,6 +121,9 @@ a {
   margin-bottom: 30px;
 }
 
+
+
+
 .btn {
   width: 220px;
   cursor: pointer;
@@ -129,7 +132,7 @@ a {
   text-align: center;
   font-weight: bold;    
   background-color: #3d7ea6;
-  border: 1px solid #3d7ea6;
+  border: 1px solid #fff;
   border-radius: 8px;
   color: #fff;
   padding: 10px;
